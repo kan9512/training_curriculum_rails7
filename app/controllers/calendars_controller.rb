@@ -7,6 +7,7 @@ class CalendarsController < ApplicationController
   end
 
   def new
+
     @plan = Plan.new
   end
 
